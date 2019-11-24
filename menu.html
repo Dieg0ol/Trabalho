@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Mostekeiros</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/product.css" rel="stylesheet">
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="dist/js/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </head>
+
+  <body onload="aocarregar()">
+<!--site-header sticky-top py-1-->
+
+    <nav class="teste">
+      <div class="container d-flex flex-column flex-md-row justify-content-between ">
+        <a class="py-2" href="index.html">
+        <img class="img2" src="img/icone.png" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+		</a>
+        <a class="py-22 d-none d-md-inline-block" href="../cover/capa.html">Inicio</a>
+        <a class="py-22 d-none d-md-inline-block" href="oque.html">O que é IA?</a>
+        <a class="py-22 d-none d-md-inline-block" href="#">Empresas na IA</a>
+        <a class="py-22 d-none d-md-inline-block" href="#">Contato</a>
+        <a class="py-22 d-none d-md-inline-block" href="#">Formulário</a>
+        <a class="py-22 d-none d-md-inline-block" href="#">Nossa Loja</a>
+        <a class="py-22 d-none d-md-inline-block" href="#">Gráficos</a>
+      </div>
+    </nav>
+
+    <div  class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background-image:url(img/ROBO.jpg)">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal" >Inteligência artificial</h1>
+        <p class="lead font-weight-normal">Aqui vamos falar o que é inteligencia artificial etc etc etc etc </p>
+        <a class="btn btn-outline-secondary" href="#">Saiba Mais</a>
+      </div>
+      <!--<div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>-->
+    </div>
+
+   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white ">
+        <div class="my-3 py-3">
+          <h2 class="display-5 bg-white text-dark" >Inteligencia artificial<h2>
+          <p class="lead bg-white text-dark">Empresas que usam IA</p>  
+        </div>
+        <div class="teste2">        <p class="lead">
+            <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#exemplo">Saiba mais</button> <!--estou aqui-->
+        </p></div>
+      </div>
+	  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5 bg-white text-dark" >Riscos</h2>
+          <p class="lead bg-white text-dark" >Perigos com Inteligencia artificial</p>
+          <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#Riscos">Saiba mais</button> <!--estou aqui-->
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div> 
+    
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5 bg-white text-dark">Vantagens <h2>
+          <p class="lead bg-white text-dark">Quais as Vantagens de usar uma IA</p>
+        </div>
+        <div class="teste2">        <p class="lead">
+            <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#exemplo">Saiba mais</button> <!--estou aqui-->
+        </p></div>
+      </div>
+	  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5 bg-white text-dark">Curiosidades</h2>
+          <p class="lead text-black-50 bg-white text-dark">confira algumas Curiosidades Sobre IA</p>
+          <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#exemplo">Saiba mais</button> <!--estou aqui-->
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+<!--
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+    </div>
+-->
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Participantes</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Maike</a></li>
+            <li><a class="text-muted" href="#">Diego</a></li>
+            <li><a class="text-muted" href="#">Kawany</a></li>
+            <li><a class="text-muted" href="#">Raphaela</a></li>
+			<li><a class="text-muted" href="#">Alexandre</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Conteúdos</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Maike</a></li>
+            <li><a class="text-muted" href="#">Diego</a></li>
+            <li><a class="text-muted" href="#">Kawany</a></li>
+            <li><a class="text-muted" href="#">Raphaela</a></li>
+			<li><a class="text-muted" href="#">Alexandre</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Outras coisas</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Maike</a></li>
+            <li><a class="text-muted" href="#">Diego</a></li>
+            <li><a class="text-muted" href="#">Kawany</a></li>
+            <li><a class="text-muted" href="#">Raphaela</a></li>
+			<li><a class="text-muted" href="#">Alexandre</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Sei la</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Maike</a></li>
+            <li><a class="text-muted" href="#">Diego</a></li>
+            <li><a class="text-muted" href="#">Kawany</a></li>
+            <li><a class="text-muted" href="#">Raphaela</a></li>
+			<li><a class="text-muted" href="#">Alexandre</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exemplo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title bg-transparent text-dark text-center" id="TituloModalCentralizado">Empresas que usam Inteligencia Artificial</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+              <h5 class="bg-white text-dark lead text-center">Amazon</h5>
+
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-6">
+
+                    <img src="img/amazonv4.jpg">
+                  </div>
+                  <div class="col-6">
+                    <p class="bg-white text-dark">
+                        A Amazon é uma empresa estadunidense de comércio eletrônico que investe em inteligência artificial e robôs de marketing há mais de 20 anos. O sistema de recomendações do site, por exemplo, é baseado em machine learning. Além do mais, segundo o site da empresa, “[..] processos de previsão, planejamento de capacidade e cadeia de suprimentos também são embasados em algoritmos”.
+                    <br><br><br><br> </p>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              <h5 class="bg-white text-dark lead text-center">Google</h5>
+
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-6">
+
+                    <img src="img/googlev2.jpg">
+                  </div>
+                  <div class="col-6">
+                    <p class="bg-white text-dark">
+                        Criada há 20 anos, o Google é uma das maiores empresas de inteligência artificial do mundo. Seu buscador é o mais popular do planeta, com robôs que detectam o ranqueamento de sites no search, anúncios, categorias, recomendações, dentre inumeráveis funcionalidades. Vale ressaltar que eles possuem até carros que dirigem sozinhos, visando mapear os locais para o Google Maps, por meio da inteligência artificial.
+                    <br><br><br><br> </p>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              <h5 class="bg-white text-dark lead text-center">Apple</h5>
+
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-6">
+
+                    <img src="img/applev2.jpg">
+                  </div>
+                  <div class="col-6">
+                    <p class="bg-white text-dark">
+                        A Apple é gigante no mercado da tecnologia, sendo criadora do smartphone mais desejado da história, o iPhone. Seus produtos são dotados de um sistema de IA denominado “Siri”. Com apenas uma frase – “e aí, Siri” -, você já consegue realizar diversas atividades por meio do comando de voz. Enviar mensagens e reproduzir seus programas favoritos de TV, estão entre algumas das possibilidades.
+                    <br><br><br><br> </p>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              <h5 class="bg-white text-dark lead text-center">International Business Machines Corp</h5>
+
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-6">
+
+                    <img src="img/IBMv2.jpg">
+                  </div>
+                  <div class="col-6">
+                    <p class="bg-white text-dark">
+                        Uma das mais visíveis empresas de tecnologia quando se trata de IA também é uma das mais antigas: International Business Machines Corp. (NYSE: IBM). A pesquisa da IBM na área da IA remonta à década de 1950 e durante muitos anos o Watson – um super computador – foi a face mais pública de IA. O Deep Blue, outro super computador da IBM, tornou-se famoso em 1997 por ter derrotado um campeão mundial de xadrez. A IBM comercializa o Watson como plataforma que alavanca a aprendizagem de máquina e processa linguagem natural para analisar grandes quantidades de dados não estruturados para clientes.
+                    <br><br><br><br> </p>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2-->
+    <div class="modal fade bd-example-modal-lg" id="Riscos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title bg-transparent text-dark text-center" id="TituloModalCentralizado">Riscos de não utilizar IAs em Empresas</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+              <h5 class="bg-white text-dark lead text-center">Empresas que não utilizam Inteligência Artificial estão em risco</h5>
+
+              <div class="container">
+                    <img src="img/yorktimesv3.jpg">
+                  </div>
+                        <p class="bg-white text-dark">
+                            Mais da metade das empresas pretende inovar usando Inteligência Artificial (IA) no Brasil em 2019 na área tributária. Exatos 56% das instituições pretendem utilizar ferramentas de IA para otimizarem a gestão de tributos, afinal, o Brasil conta com o sistema tributário mais complexo do mundo.
+                            A pesquisa identificou que, para se manter no mercado, os profissionais que atuam na área fiscal e tributária terão de estar atentos às inovações que envolvem as suas atividades de trabalho. Fato este é que somente 36% dos entrevistados preferem contratar profissionais com muita experiência na área, porém com pouco conhecimento em tecnologias. Já 61% optam em eleger os profissionais que têm pouca atuação na área, mas muita sabedoria em inovações.
+                            Ainda de acordo com o levantamento, 61% dos profissionais do setor fiscal e tributário acreditam que a Inteligência Artificial (Machine Learning) é a inovação com maior capacidade de trazer benefícios a esse setor, seguido de 33% que consideram ser o Data Science melhor, e 10% optam pelo Chat Bots. A pesquisa foi realizada pela Thomsom Reuters e pela Live University, e ouviu mais de 300 profissionais em posições de liderança e especialistas das principais organizações do País.
+                            "A Inteligência Artificial já é uma realidade no setor contábil e tributário, com resultados surpreendentes em agilidade nos processos e segurança das informações", afirma Guilherme Kluber Mercurio, engenheiro de Machine Learning da Roit Consultoria e Contabilidade.
+                            De acordo com Lucas Ribeiro, sócio-diretor da Roit, que é advogado tributarista e consultor empresarial, sem a tecnologia adequada, as empresas podem chegar a pagar mais tributos do que devem. "As leis fiscais do Brasil são muito complexas e apresentam inúmeras variáveis. Por isso, muitas vezes, os produtos e serviços são tributados de forma errada e benefícios fiscais podem ser esquecidos ou aplicados incorretamente", explica.
+                            Ferramentas como as oferecidas pela Roit e tantas outras são capazes de gerenciar os setores de Contas a Pagar e Contas a Receber, e todas as apurações contábeis, eliminando os departamentos fiscal, contábil e financeiro, e todas as tarefas burocráticas do dia a dia empresarial. "A nossa expectativa é de que as tecnologias de Inteligência Artificial possam gerar uma economia de até 80% nos custos das empresas com gestão contábil, fiscal e de tesouraria", avisa Ribeiro.
+                            O sócio e advogado especialista em direito tributário do Xavier Advogados, Cristiano Diehl Xavier, diz que as novas tecnologias jamais dispensarão o trabalho do contador, podendo haver uma redução de mão de obra nos escritórios para realização de tarefas meramente operacionais, como, por exemplo, para calcular tributos, gerar relatórios, analisar indicadores de resultado. "A tecnologia serve para proporcionar agilidade e eficiência ao trabalho, liberando o contador para atender melhor seu cliente, aliviando-o das atividades burocráticas, simples e repetitivas", sustenta.
+                            Segundo Ribeiro, entre as principais obrigações que já vêm sendo cumpridas por novas ferramentas estão as classificações de itens e lançamentos contábeis, a verificação de regras fiscais, a apuração de tributos e a geração de guias. No futuro, "acredito que praticamente todas as obrigações serão cumpridas com o auxílio de Inteligência Artificial". "O contador passará apenas a manter o robô atualizado e fazer análises dos resultados produzidos pelos robôs", projeta o especialista.
+                            No entanto, a utilização de IA dentro dos negócios ainda deve levar um tempo para chegar àquelas empresas de médio e pequeno porte. Por serem ferramentas de alto valor agregado e bastante novas, a sua aquisição ainda é um privilégio das empresas maiores. "Ainda é muito recente, e poucas soluções estão consolidadas e maduras. Até mesmo as grandes ainda têm dificuldades ou estão em fase inicial", salienta Ribeiro.
+                            Por outro lado, Xavier sustenta que pequenas e médias empresas já têm acessos a softwares e ferramentas com valores acessíveis. "A todo momento surgem novas startups com novos produtos, permitindo que todos possam usufruir dos vários benefícios que a tecnologia pode trazer para a gestão dos negócios", diz o advogado, alertando para uma democratização no acesso às novidades.
+                    <br><br><br><br> </p>
+                    <h5 class="bg-white text-dark lead text-center">Softwares ajudam a amenizar reflexos negativos da complexidade tributária</h5>
+                    <div class="container">
+                        <img src="img/moedasv2.jpg">
+                      </div>
+                    <p class="bg-white text-dark">A tecnologia, atualmente, auxilia em quase todas as esferas da vida, e, na hora de empreender, não é diferente. Para cumprir a legislação que rege o setor, empresas são obrigadas a prestar, com periodicidade definida, uma série de informações às autoridades fazendárias, e o esquecimento de um simples dígito pode imputar uma série de punições aos contribuintes.
+                        Por isso, o sócio e advogado especialista em direito tributário do Xavier Advogados, Cristiano Diehl Xavier, afirma que as práticas capazes de prevenir esse e outros tipos de erros precisam ser intensificados. E é aí que a tecnologia entra em cena.
+                        "Aplicativos e sistemas podem auxiliar os empreendedores no controle e na organização, para evitar possíveis sanções", afirma Xavier. O advogado ressalta, ainda, que, quando se alia os sistemas digitais com uma assessoria jurídica, o risco de possíveis sanções diminui de forma considerável, pois os profissionais de Direito auxiliarão no planejamento tributário.
+                        O Brasil é um dos países mais burocráticos do mundo. Segundo o relatório Doing Business do Banco Mundial de 2017, no Brasil, gasta-se, em média, 1.958 horas anuais para se calcular e pagar o total de tributos de uma empresa, enquanto as médias dos países membros da OCDE (Organização de Cooperação e de Desenvolvimento Econômico) é de 159,4 horas anuais.
+                        Segundo pesquisa do Banco Mundial, o Brasil aparece no ranking entre 190 nações, nas posições 140ª (aberturas de empresas), 175ª (obtenção de alvarás), 137ª (Registro de propriedades) e 184ª (pagamento de impostos). "Esse recorde negativo do nosso País obriga os contribuintes a investir em tecnologias para conseguir vencer a excessiva burocracia existente, bem como tornar seus processos internos mais eficientes", avalia o advogado.
+                        O Brasil, com toda sua complexidade fiscal, acaba se tornando terreno fértil para o surgimento de novas tecnologias que visem atenuar os problemas ocasionados por seu caótico sistema tributário vigente. "Acredito que, em breve, todo o trabalho manual e repetitivo poderá ser exercido no todo ou em parte pela ajuda da IA. Relatórios, pesquisas, declarações, entre outras funções terão auxílio de "robôs", permitindo que o profissional que atue na área contábil tenha mais tempo para se dedicar em questões mais importantes na tomada de decisões das empresas", finaliza Xavier.
+                        Além de representar uma oportunidade de redução de custo e, consequentemente, de crescimento para a indústria, o comércio e os serviços no País, o segmento de desenvolvimento de softwares e da indústria de novas tecnologias pode se beneficiar com a expansão no uso de ferramentas cada vez mais complexas pelos setores fiscal e contábil. De acordo com Ribeiro, a maior parte das soluções usadas hoje no Brasil são criadas dentro do território nacional por brasileiros.
+                        "Na área contábil e fiscal, utilizamos principalmente soluções brasileiras, devido ao grau de complexidade e especificidade das nossas normas tributárias", diz, complementando que, para manter esse alto nível de produção, é fundamental contar com um cenário propício à pesquisa. A relação entre universidade e pesquisa, novas empresas e empresas contratantes "é fundamental, principalmente quando falamos de grandes inovações, disruptivas", salienta Ribeiro.
+                        Para Xavier, universidade e pesquisa são extremamente relevantes, porém, no caso das empresas de contabilidade que usam IA, as aceleradoras de startups também são cruciais. "Elas têm a capacidade de injetar recursos em ideias que normalmente surgem de profissionais do próprio setor. Eles percebem oportunidades de negócios através da própria atuação profissional, que acaba sempre sendo dificultada por questões burocráticas e repetidas que acabam impedindo uma melhor eficiência no setor", comenta o advogado.
+                        Startups estão entre as que mais têm dedicado projetos para serem exercidos por robôs no Brasil. São tecnologias capazes de "pesquisar alíquotas de determinado tributo incidente nas operações de compra e venda, organizar informações de entradas e saídas, preencher formulários e declarações fiscais, digitar dados de extratos e notas fiscais, entre outros", explica Xavier.
+
+                    <br><br><br><br> </p>
+                    <h5 class="bg-white text-dark lead text-center">Robôs podem otimizar o serviço contábil prestado</h5>
+                    <div class="container">
+                        <img src="img/robotsv2.jpg">
+                      </div>
+                    <p class="bg-white text-dark">Apesar do medo de as novas tecnologias colocarem em risco a sobrevivência dos profissionais contábeis dentro das empresas, Lucas Ribeiro, da Roit, rechaça essa possibilidade. Tecnologias como o "robô contador" vêm apenas ajudar no trabalho do contador. "Os contadores se tornarão mais estratégicos e menos operacionais com o apoio dos robôs", define.
+                        A Inteligência Artificial poderá tornar possível a realização de uma análise mais rápida e profunda de cada operação, abrindo espaço até mesmo para a redução de tributos e o pagamento apenas daquilo que realmente é devido.
+                        A empresa lançou recentemente um "robô contador", projeto que utiliza 100% de IA em operações contábeis e fiscais. De acordo com a consultoria, a nova tecnologia chegou a realizar, já nas primeiras semanas de trabalho, 1,8 mil operações por hora e mais de 8 mil classificações contábeis sem qualquer intervenção humana. Além disso, mais de 4 mil documentos foram lançados com aplicação de Optical Character Recognition (OCR) para extração de dados dos documentos fiscais, com índice de precisão de quase 70%.
+                        "Nossos softwares com Inteligência Artificial realizam todas as etapas do processo de contabilidade. A ferramenta é capaz de ler os documentos enviados, interpretá-los e depois gerenciá-los. Antes do pagamento de um boleto, por exemplo, o robô identifica as regras fiscais relacionadas com a nota fiscal que deu origem, faz a classificação contábil e realiza todas as etapas necessárias. Se estiver tudo certo, faz o agendamento no banco e só nesse momento o empresário vai atuar, com a liberação de pagamento", explica Lucas Ribeiro.
+                        Além de ajudar na gestão administrativa e fiscal, os sistemas contam com emissão, controle e gerenciamento de documentos fiscais em seus mais variados modelos eletrônicos. Nota Fiscal Eletrônica (NFe), Nota Fiscal ao Consumidor Eletrônica (NFCe) e Conhecimento de Transporte Eletrônico (CTe) são alguns exemplos de documentos que são trabalhados pelos sistemas.
+                        "Outro atributo positivo do uso dos softwares é que elas funcionam na nuvem, sendo dispensáveis grandes investimentos de hardware nas empresas, e os programas podem ser acessados de qualquer dispositivo conectado à internet", salienta Cristiano Diehl Xavier, do escritório Xavier Advogados.
+                    <br><br><br><br> </p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+    
+  </body>
+</html>

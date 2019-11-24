@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script type="text/JavaScript" src="js/funcoes.js"></script>
+
+    <title>Logue no nosso site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" action="menu.html" method="get" name="form" id="form2">
+      <img class="mb-4" src="img/icone.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal font-cor">Entre e divirta-se</h1>
+      <label for="inputEmail" class="sr-only">Digite seu email</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus name="recebeemail">
+      <label for="inputPassword" class="sr-only">Digite sua senha</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required name="recebesenha">
+      <div class="checkbox mb-3 font-cor">
+        <label>
+          <input type="checkbox" value="remember-me"> Gravar minha senha
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block nav-link" type="submit" 
+	  onclick="recebelogin(recebeemail.value,recebesenha.value)" >Entrar</button>
+      <p class="mt-5 mb-3  font-cor">2º Semestre - 2019</p>
+    </form>
+  </body>
+</html>
